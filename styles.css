@@ -1,0 +1,163 @@
+/* My styles */
+
+h5,h2{
+    font-weight: bold;
+}
+.centerview {
+    /*  border: 3px solid black;*/
+      padding-top: 70px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .contentdiv{
+    /*  border: 1px solid lightgray;*/
+      padding: 5px;
+      text-align: center;
+      vertical-align: center;
+    }
+    .webpagebackground {
+      display: grid;
+      grid-template-columns: 1fr;
+    /*  background-color: rgb(82, 102, 107);*/
+    }
+    .backgroundpicture {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      z-index: 7;
+      position: fixed;
+      opacity: 0.25;
+    }
+    .container {
+      background-color: white;
+      grid-column: 1/2;
+      grid-row: 1/2;
+      z-index: 8;
+    }
+    .introduction{
+      grid-column: 2/5;
+      text-align: left;
+    }
+    .bio{
+      grid-column: 1/5;
+      text-align: left;
+    }
+    .youtubevideo {
+      grid-column: 1/5;
+      padding: 20px;
+    }
+    .videoembed{
+      width: 100%;
+      height: calc(100vw * 0.37);
+    }
+    .linkLI{
+      grid-column: 1/3;
+    }
+    .linkGH{
+      grid-column: 3/5;
+    }
+    .fulllength{
+      grid-column: 1/5;
+    }
+    .fulllengthheader{
+        font-family: Arial, Helvetica, sans-serif;
+      padding-top: 40px;
+      grid-column: 1/5;
+      color: rgb(33, 37, 41);
+    /*  background-color: rgb(33, 37, 41);*/
+      border-bottom: 1px solid rgb(33, 37, 41);
+      font-weight: bold;
+      font-size: large;
+      margin-bottom: 30px;
+    }
+    .fulllengthheader2{
+        padding-top: 40px;
+        grid-column: 1/5;
+        color: rgb(33, 37, 41);
+      /*  background-color: rgb(33, 37, 41);*/
+        font-weight: bold;
+        font-size: large;
+      }
+    .attribution {
+      text-align: center;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    /*  border: 2px solid black;*/
+      font-size: small;
+    /*  border-radius: 10px;*/
+      background-color: rgb(33, 37, 41);
+    }
+    .headshot{
+      border-radius: 50%;
+      border: 1px solid lightgray;
+    }
+    .headshotmain{
+      grid-column: 1/2;
+    }
+    .projectscreenshot img {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    .projectscreenshotcontainer {
+      grid-column: 1/3;
+      grid-row: 2/5;
+      padding: 10px;
+      float: left;
+    }
+    .projectabout {
+      grid-column: 3/5;
+      grid-row: 2/4;
+      text-align: left;
+      padding: 10px;
+      padding-top: 20px;
+    }
+    a.button:link {
+      color: white; 
+      background-color: transparent; 
+      text-decoration: none;
+    }
+    
+    a.button:visited {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a.button:hover {
+      color: lightgray;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a.button:active {
+      color: white;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    .linkbutton {
+      padding: 10px;
+    /*  background-color: rgb(82, 102, 107);*/
+      background-color: rgb(83, 94, 105);
+      border-radius: 10px;
+      color: white;
+    /*  border: 2px solid black;*/
+    }
+    .projectintro {
+      color: rgb(33, 37, 41);
+      font-weight: bold;
+    }
+    .socialicons {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: inline-block;
+        clear: both;
+    }
+    .copyright {
+        padding-top: 10px;
+    }
+
