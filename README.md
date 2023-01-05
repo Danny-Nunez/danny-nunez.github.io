@@ -1,3 +1,4 @@
-# danny-nunez.github.io
+# Danny-Nunez.github.io
 
-Personal portfolio link. this is a snipit from the full portfolio website
+Personal MITXPRO portfolio link. 
+This is a portfolio displaying work from mitxpro fullstack bootcamp.
